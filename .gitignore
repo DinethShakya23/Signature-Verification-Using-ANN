@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+*.spec
+.eggs/
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ML / model artifacts
+*.h5
+*.pb
+*.tflite
+*.onnx
+# Keep the committed trained model; ignore any locally generated copies at root
+/siamese_signature_model.keras
+/signature_embedding_model.keras
+
+# Dataset (large, not tracked)
+signatures/
+data/
+
+# W&B local run files
+wandb/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
